@@ -34,7 +34,7 @@ Mit einem echten Objekterkennungsmodell (YOLOv8n) wird untersucht, wann eine Per
 | 5 · Zufall oder Absicht | Verdeckung durch ein Zufallsmuster im Vergleich zu einem gezielten Angriff |
 | Abschluss | Ergebnis, Fachbegriffe, weiterführendes Material |
 
-- **Dauer:** etwa 20 Minuten, keine Vorkenntnisse nötig
+- **Dauer:** etwa 20 bis 25 Minuten, keine Vorkenntnisse nötig
 - **Bedienung:** im Browser über Google Colab, ohne Installation; im Menü *Laufzeit → Alle ausführen*, danach Schaltflächen und Regler
 - **Voraussetzung:** ein Google-Konto
 
@@ -138,8 +138,8 @@ Lernziel, Ablauf, Hinweise zu Vereinfachungen und Fragen für die Nachbesprechun
 
 ## Technik
 
-Die Notebooks laufen in Google Colab. Das Workshop- und das Vertiefungs-Notebook benötigen nur das Paket
-`ultralytics==8.4.216`, das automatisch installiert wird, und laufen ohne GPU.
+Die Notebooks laufen in Google Colab. Das Workshop- und das Vertiefungs-Notebook benötigen nur die Pakete
+`ultralytics==8.4.216` und `matplotlib`, die automatisch installiert werden, und laufen ohne GPU.
 Für das Kursmaterial lokal: `pip install -r requirements.txt`.
 
 ## Lizenz und Quellen

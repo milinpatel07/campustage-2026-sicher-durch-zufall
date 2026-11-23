@@ -63,7 +63,7 @@ Gemessen mit `ultralytics 8.4.216` und `yolov8n.pt`. In Colab können einzelne W
 
 ## Begleitende Erhebung (optional)
 
-Für eine Vorher-nachher-Erhebung, etwa mit Mentimeter, eignet sich die Frage aus dem Notebook in konkreter Form:
+Für eine Vorher-nachher-Erhebung, etwa mit Mentimeter, eignet sich die Frage aus dem Notebook in einer konkreteren Formulierung:
 *„Wer hat entschieden, wo der Regler steht?“* (Das KI-Modell selbst / Der Zufall / Ein Mensch),
 gestellt vor Teil 3 und nach dem Abschluss. Wenige Fragen insgesamt halten die Beteiligung hoch.
 
@@ -79,7 +79,7 @@ gestellt vor Teil 3 und nach dem Abschluss. Wenige Fragen insgesamt halten die B
 
 ---
 
-*English summary: The workshop notebook (German, about 20 minutes, no coding) lets students set the detection threshold
+*English summary: The workshop notebook (German, about 20 to 25 minutes, no coding) lets students set the detection threshold
 of a real object detector themselves, test it under simulated poor visibility and compare a random patch with a computed
 adversarial patch. Its learning goal: a vehicle does not see a person, it computes a number, and people decide which number counts.
 The follow-up notebook covers random testing, the rule of three and systematic edge-case search.*
