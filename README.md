@@ -5,10 +5,26 @@ Milin Patel · Institut für Fahrerassistenz und vernetzte Mobilität (IFM)
 
 ---
 
+## Ein Auto sieht keinen Menschen. Es sieht eine Zahl.
+
+<img src="assets/grenze.gif" width="320" align="right" alt="Die KI erkennt je nach Grenze 0 bis 5 Menschen auf demselben Bild">
+
+Dasselbe Bild, dieselbe KI. Nur eine Zahl ändert sich: die **Grenze**, ab der die KI etwas als Mensch zählt.
+Bei 90 % sieht das Auto niemanden. Bei 20 % alle vier. Bei 5 % sieht es sogar ein Fahrrad, wo keins ist.
+
+**Wer stellt diese Grenze ein?** Nicht die KI. Ein Mensch.
+
+Drei Fragen, die du in 25 Minuten selbst beantwortest:
+
+- Wann übersieht ein Auto einen Menschen, und wer ist dann schuld?
+- Was macht der KI mehr zu schaffen: Nebel, Regen oder Dunkelheit?
+- Kann ein Aufkleber einen Menschen für die KI unsichtbar machen?
+
+<br clear="right">
+
 ## Start hier
 
-Ein selbstfahrendes Auto erkennt Menschen mit Kamera und KI. Aber wann sieht es sie nicht?
-In diesem Notebook findest du es selbst heraus. Du bist das Entwicklungsteam, du stellst die Regler ein,
+Du bist das Entwicklungsteam, du stellst die Regler ein,
 und am Ende entscheidest du, ob dein Auto auf die Straße darf.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/milinpatel07/campustage-2026-sicher-durch-zufall/blob/main/01_Perception_Systems/notebooks/00_workshop_der_ki_blick.ipynb)
@@ -31,6 +47,19 @@ Dauer: etwa 25 Minuten. Vorwissen: keins.
 | 6 | Kann man die KI austricksen? | Zufälliger gegen berechneten Aufkleber |
 | 7 | Mensch oder KI | Wer sieht was besser? |
 | | Finale | Sicher durch Zufall? Und: Darf dein Auto fahren? |
+
+### Zufall oder Absicht?
+
+<img src="assets/zufall_vs_absicht.jpg" width="560" alt="Links ein zufälliges Muster: Mensch wird erkannt. Rechts ein berechnetes Muster: Mensch verschwindet für die KI.">
+
+Ein zufälliges Muster lässt die KI kalt. Ein berechnetes Muster gleicher Größe lässt den Menschen für sie verschwinden.
+Daher der Titel: **Sicher durch Zufall?** Nein. Sicher durch Menschen, die mit Zufall *und* Absicht rechnen.
+
+### Profi-Wörter
+
+Unterwegs schaltest du neun Begriffe frei, die Fachleute wirklich benutzen. Die meisten sind englisch, so wie in der Forschung:
+
+`Confidence` · `Bounding Box` · `Threshold` · `False Negative` · `False Positive` · `ODD` · `Adversarial Attack` · `Sensor Fusion` · `Safety & Security`
 
 ---
 
@@ -74,6 +103,8 @@ Die übrigen Notebooks benötigen weitere Pakete, siehe `requirements.txt`.
 ## Lizenz
 
 MIT-Lizenz, siehe `LICENSE`. Über einen Hinweis auf die Quelle bei Nutzung im Unterricht freuen wir uns.
+Das Beispielbild (Straßenszene mit Bus) ist das Testbild `bus.jpg` aus dem Paket [Ultralytics](https://github.com/ultralytics/ultralytics);
+die Bilder in `assets/` zeigen echte Ergebnisse des Workshop-Notebooks darauf.
 
 © 2026 Milin Patel, Hochschule Kempten (IFM)
 

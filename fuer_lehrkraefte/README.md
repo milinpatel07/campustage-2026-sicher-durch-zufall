@@ -19,7 +19,7 @@ und die Frage im Finale noch einmal aufgegriffen wird.
 
 | Mission | Zeit | Was passiert | Ihr Satz in den Raum |
 |---|---|---|---|
-| Start | 1–2 Min | Laufzeit → Alle ausführen, KI lädt | „Wartet auf das grüne *Bereit*.“ |
+| Start | 1–2 Min | Laufzeit → Alle ausführen, KI lädt | Die Ladezeit für eine kurze persönliche Vorstellung nutzen (steht bewusst nicht im Notebook). |
 | 1 Bild | 2 Min | Beispielbild oder Roboter-Foto hochladen | „Jetzt schaut die KI durch die Augen unseres Roboters.“ |
 | 2 Zähl-Duell | 2 Min | Selbst zählen, mit Stoppuhr | „Wie viele habt ihr? Wer war am schnellsten?“ |
 | 3 KI schaut hin | 3 Min | Boxen, Konfidenz, dann *alle Vermutungen* | „Die KI hat den Mann links gesehen. Sie hat ihm nur nicht geglaubt.“ |
@@ -66,6 +66,23 @@ Damit niemand später etwas Falsches mitnimmt:
 - Der Aufkleber-Angriff ist **digital** und kennt das Modell genau. Physische Angriffe sind in der Forschung gezeigt worden
   (zum Beispiel Aufkleber auf Stoppschildern, Eykholt et al., CVPR 2018), aber deutlich schwieriger.
 
+## Profi-Wörter
+
+An passenden Stellen schalten die Teilnehmenden neun Fachbegriffe frei, meist englisch, wie sie in Forschung und Industrie benutzt werden.
+Im Finale erscheinen alle gesammelten Begriffe als persönliches Wörterbuch.
+
+| Mission | Profi-Wort | Wird freigeschaltet, wenn … |
+|---|---|---|
+| 3 | Bounding Box, Confidence | die KI zum ersten Mal hinschaut |
+| 4 | False Negative / False Positive | der Regler einen Menschen übersieht / zu viele meldet |
+| 4 | Threshold | die Entscheidung festgehalten wird |
+| 5 | ODD (Operational Design Domain) | das Wetter ausgewertet wird |
+| 6 | Adversarial Attack | ein Aufkleber berechnet wurde |
+| 7 | Sensor Fusion | alle sieben Situationen beantwortet sind |
+| Finale | Safety & Security | die Abschlussfrage beantwortet ist |
+
+„False Positive“ erscheint nur, wenn jemand den Regler ganz nach links schiebt. Ein guter Anlass, im Raum zu fragen: Wer hat alle neun?
+
 ## Wenn etwas hakt
 
 | Problem | Lösung |
@@ -99,9 +116,12 @@ while they still have the slider in their hands: *„Wer stellt diesen Regler ei
 - Weather mission starts with a prediction, uses the student's own threshold, and the evaluation text adapts to the actual result.
 - New sticker mission: random patch vs. a computed (gradient-based) patch. "Zufall trifft fast nie. Absicht schon." This answers the title question.
 - Mensch-oder-KI quiz to land "not better, not worse: different".
+- Nine "Profi-Wörter" (Confidence, Threshold, False Negative, ODD, Adversarial Attack, …) unlock at the moment students experience them; the finale shows their personal glossary.
 - Finale: learning check, personal mission log, release decision, then a table linking each mission to real jobs.
 - Only two follow-up notebooks are shown; the other 30+ are mentioned as "there for later, e.g. in a Bachelor's or Master's".
 - Code cells are collapsed in Colab (forms), all interaction is buttons and sliders, all errors show a friendly message.
 - Example image now ships with the `ultralytics` package (no download at runtime), version pinned to 8.4.216.
 
-**Please check before the next run:** rewrite the personal note at the top of the notebook in your own words. Have a native German speaker read the student texts once.
+**Your introduction is live, not written.** The notebook deliberately contains no personal note; use the 1–2 minutes while the model loads to introduce yourself.
+
+**Please check before the next run:** have a native German speaker read the student texts once, and do one full dry run in Colab.
