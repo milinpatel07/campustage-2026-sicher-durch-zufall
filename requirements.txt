@@ -1,6 +1,6 @@
-# Autonomous Driving: AI Safety and Security
-# Requirements for all 7 modules
-# The Campustage workshop notebook (00_workshop_der_ki_blick) only needs: ultralytics==8.4.216
+# Campustage 2026: Automatisiertes Fahren! Sicher durch Zufall?
+# Requirements for the course notebooks (modules 01-07)
+# The workshop notebooks (00_*) only need: ultralytics==8.4.216 (installed automatically in Colab)
 # Python 3.8+ Required
 # Compatible with Google Colab and Local Installation
 
