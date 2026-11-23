@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in contributing to this project. Contributions of all kinds are welcome — from fixing typos and improving explanations to adding new notebooks and templates.
+Thank you for your interest in contributing to this project. Contributions of all kinds are welcome, from fixing typos and improving explanations to adding new notebooks and templates.
 
 ## How to Contribute
 
@@ -8,7 +8,7 @@ Thank you for your interest in contributing to this project. Contributions of al
 
 If you find an error, broken link, outdated information, or have a suggestion:
 
-1. Open an [issue](https://github.com/milinpatel07/Autonomous-Driving_AI-Safety-and-Security/issues)
+1. Open an [issue](https://github.com/milinpatel07/campustage-2026-sicher-durch-zufall/issues)
 2. Use a clear, descriptive title
 3. Describe the problem and where you found it (module, notebook, cell number)
 4. If applicable, suggest a fix or improvement
@@ -24,7 +24,7 @@ Ideas for new content, better explanations, or structural changes are welcome. O
 ### Submitting Changes
 
 1. Fork the repository
-2. Create a feature branch from `master`:
+2. Create a feature branch from `main`:
    ```bash
    git checkout -b your-feature-name
    ```
@@ -35,7 +35,7 @@ Ideas for new content, better explanations, or structural changes are welcome. O
 
 ### Pull Request Guidelines
 
-- Keep changes focused — one topic per pull request
+- Keep changes focused: one topic per pull request
 - Follow the existing file naming conventions (`##_descriptive_name.ipynb`)
 - Ensure notebooks run cleanly in Google Colab
 - Include copyright and author information consistent with existing notebooks
@@ -44,7 +44,8 @@ Ideas for new content, better explanations, or structural changes are welcome. O
 ## Content Guidelines
 
 - **Accuracy**: Ensure technical content is correct and references appropriate standards
-- **Clarity**: Write for a reader who may be new to the topic — explain terminology and assumptions
+- **Clarity**: Write for a reader who may be new to the topic; explain terminology and assumptions
+- **Workshop notebooks** (`00_*`): German, no code reading required, terminology as in the glossary at the end of the workshop notebook
 - **Conciseness**: Be thorough but avoid unnecessary repetition
 - **Code quality**: Include comments, use descriptive variable names, and handle common errors
 - **Visualizations**: Prefer clear, labeled plots with titles and axis labels
