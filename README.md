@@ -1,110 +1,84 @@
-# Campustage 2026 — Automatisiertes Fahren! Sicher durch Zufall?
+# Automatisiertes Fahren! Sicher durch Zufall?
 
-Ein Workshop-Repository für Schülerinnen und Schüler der 11. Klasse.
-Thema: **Wie „sieht" ein selbstfahrendes Auto — und wo versagt diese Wahrnehmung?**
-
-**Milin Patel · Hochschule Kempten, Institut für Fahrerassistenz und vernetzte Mobilität (IFM)**
-Lizenz: MIT
+**Campustage 2026 · Hochschule Kempten**<br>
+Milin Patel · Institut für Fahrerassistenz und vernetzte Mobilität (IFM)
 
 ---
 
-## Worum es geht
+## Start hier
 
-Selbstfahrende Autos erkennen ihre Umgebung mit Kamera und Künstlicher Intelligenz.
-In diesem Workshop schauen die Teilnehmenden dieser KI beim Sehen zu — und finden mit
-eigenen Händen heraus, wo sie an ihre Grenzen stößt: bei schlechtem Wetter, an einer
-zu hoch oder zu niedrig gesetzten Erkennungs­schwelle, oder durch einen gezielten Angriff.
-
-Die Leitfrage: **Eine KI sieht die Straße nicht schlechter als ein Mensch — sie sieht sie anders.**
-
----
-
-## Schnellstart für Teilnehmende
-
-Das Workshop-Notebook läuft direkt im Browser über Google Colab — ohne Installation.
-
-**➜ [Notebook öffnen: *Der KI-Blick*](https://colab.research.google.com/github/milinpatel07/campustage-2026-sicher-durch-zufall/blob/main/01_Perception_Systems/notebooks/00_workshop_der_ki_blick.ipynb)**
+Ein selbstfahrendes Auto erkennt Menschen mit Kamera und KI. Aber wann sieht es sie nicht?
+In diesem Notebook findest du es selbst heraus. Du bist das Entwicklungsteam, du stellst die Regler ein,
+und am Ende entscheidest du, ob dein Auto auf die Straße darf.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/milinpatel07/campustage-2026-sicher-durch-zufall/blob/main/01_Perception_Systems/notebooks/00_workshop_der_ki_blick.ipynb)
 
-1. Auf den Colab-Button klicken.
-2. Mit einem Google-Konto anmelden.
-3. Oben im Menü: **Laufzeit → Alle ausführen**. Der erste Start lädt kurz die KI.
-4. Danach steuert man alles über Regler und Knöpfe — kein Code nötig.
+1. Auf **Open in Colab** klicken und mit einem Google-Konto anmelden.
+2. Im Menü **Laufzeit → Alle ausführen** wählen.
+3. Warten, bis **Bereit** erscheint. Danach geht alles über Knöpfe und Regler. Code lesen musst du nicht.
+
+Dauer: etwa 25 Minuten. Vorwissen: keins.
+
+### Deine sieben Missionen
+
+| | Mission | Darum geht's |
+|---|---|---|
+| 1 | Wodurch schaut dein Auto? | Beispielbild oder euer Foto aus der Roboter-Kamera |
+| 2 | Zähl-Duell | Du zählst gegen die Uhr, dann die KI |
+| 3 | Die KI schaut hin | Was die KI erkennt und was sie nur vermutet |
+| 4 | Du stellst die Grenze ein | Übersehen oder grundlos bremsen? Du entscheidest. |
+| 5 | Die Welt ist nicht sauber | Nebel, Regen, Dunkelheit |
+| 6 | Kann man die KI austricksen? | Zufälliger gegen berechneten Aufkleber |
+| 7 | Mensch oder KI | Wer sieht was besser? |
+| | Finale | Sicher durch Zufall? Und: Darf dein Auto fahren? |
 
 ---
 
-## Das Workshop-Notebook
+## Bonus-Level
 
-**`01_Perception_Systems/notebooks/00_workshop_der_ki_blick.ipynb`**
+Du willst weitermachen? Zwei Notebooks als nächster Schritt (auf Englisch, mit mehr Code):
 
-Der rote Faden in vier Schritten:
+- [Pedestrian Detection](https://colab.research.google.com/github/milinpatel07/campustage-2026-sicher-durch-zufall/blob/main/01_Perception_Systems/notebooks/05_pedestrian_detection.ipynb): Fußgänger erkennen, genauer betrachtet
+- [Adversarial Attacks](https://colab.research.google.com/github/milinpatel07/campustage-2026-sicher-durch-zufall/blob/main/02_Failure_Analysis/notebooks/04_adversarial_attacks.ipynb): die Fortsetzung von Mission 6
 
-1. **Du zählst zuerst.** Eine echte Straßenszene — wie viele Menschen erkennst *du*?
-2. **Die KI zählt.** Ein Klick, und die KI zeichnet Boxen mit Konfidenzwerten. Stimmt es überein?
-3. **Die Grenze entscheidet.** Ein Regler für die Erkennungs­schwelle. Zu hoch — echte Menschen verschwinden. Zu niedrig — die KI „sieht" Dinge, die nicht da sind. Diese Grenze legt ein Mensch fest.
-4. **Die Welt ist nicht sauber.** Nebel und Regen lassen die Erkennung einbrechen.
+<details>
+<summary><b>Und dahinter? Über 30 weitere Notebooks</b> (aufklappen)</summary>
 
-Am Ende steht die Erkenntnis: **Die KI sieht nicht, was du siehst. Sie sieht Zahlen — und Zahlen kann man täuschen.**
+Diese Sammlung ist für Studium und Forschung gedacht. Vieles davon begegnet dir im Informatik-Studium wieder,
+im Bachelor und noch tiefer im Master. Stöbern ausdrücklich erlaubt.
 
----
+| Ordner | Thema |
+|---|---|
+| `01_Perception_Systems` | Wie Autos ihre Umgebung wahrnehmen: Kamera, LiDAR, Sensorfusion, Datensätze |
+| `02_Failure_Analysis` | Wenn es schiefgeht: echte Unfälle, Sonderfälle, Angriffe |
+| `03_Functional_Safety` | Sicherheitsnorm ISO 26262: Gefahren finden und bewerten |
+| `04_SOTIF` | Sicherheit, auch wenn nichts kaputt ist (ISO 21448) |
+| `05_Cybersecurity` | Schutz vor Hackern (ISO/SAE 21434) |
+| `06_AI_Safety` | Wie sicher ist sich eine KI wirklich? |
+| `07_Integration_Deployment` | Vom Labor auf die Straße: Kommunikation, Normen, Zulassung |
 
-## Teil einer größeren Sammlung
-
-Dieses Workshop-Notebook ist der Einstieg in ein umfassenderes Forschungs- und Lehrmaterial
-zu Sicherheit und Security beim automatisierten Fahren. Wer tiefer einsteigen möchte, findet
-in diesem Repository weitere Module — gedacht für Studierende und Interessierte:
-
-| Modul | Inhalt |
-|-------|--------|
-| `01_Perception_Systems` | Objekterkennung, Fußgängererkennung, Sensorfusion, LiDAR, Datensätze |
-| `02_Failure_Analysis` | Fehlerfälle, Out-of-Distribution, Corner Cases, adversariale Angriffe |
-| `03_Functional_Safety` | ISO 26262, HARA, FMEA, Verifikation & Validierung |
-| `04_SOTIF` | Safety of the Intended Functionality, Szenarioanalyse |
-| `05_Cybersecurity` | Automotive Cybersecurity, TARA |
-| `06_AI_Safety` | Sicherheit von KI-Komponenten |
-| `07_Integration_Deployment` | Integration und Einsatz im Fahrzeug |
+</details>
 
 ---
 
-## Aufbau des Repositories
+## Für Lehrkräfte und Vortragende
 
-```
-campustage-2026-sicher-durch-zufall/
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── 01_Perception_Systems/
-│   └── notebooks/
-│       ├── 00_workshop_der_ki_blick.ipynb   ← Workshop-Notebook
-│       ├── 03_object_detection.ipynb
-│       ├── 05_pedestrian_detection.ipynb
-│       └── ...
-├── 02_Failure_Analysis/
-├── 03_Functional_Safety/
-├── 04_SOTIF/
-├── 05_Cybersecurity/
-├── 06_AI_Safety/
-└── 07_Integration_Deployment/
-```
-
----
+Ablauf, Zeitplan, Hinweise zum Roboter, erwartete Ergebnisse und Tipps bei Problemen:
+**[fuer_lehrkraefte/README.md](fuer_lehrkraefte/README.md)**
 
 ## Technisches
 
-Die Notebooks laufen in Google Colab ohne lokale Installation. Für den lokalen Betrieb:
-
-```
-pip install -r requirements.txt
-```
-
-Verwendet werden unter anderem `ultralytics` (YOLOv8), `ipywidgets`, `matplotlib` und `Pillow`.
-
----
+Das Workshop-Notebook läuft in Google Colab ohne Installation und braucht nur das Paket `ultralytics` (YOLOv8, wird automatisch installiert).
+Die übrigen Notebooks benötigen weitere Pakete, siehe `requirements.txt`.
 
 ## Lizenz
 
-Veröffentlicht unter der MIT-Lizenz. Details in der Datei `LICENSE`.
-Bei Verwendung im Unterricht oder in der Lehre ist ein Hinweis auf die Quelle willkommen.
+MIT-Lizenz, siehe `LICENSE`. Über einen Hinweis auf die Quelle bei Nutzung im Unterricht freuen wir uns.
 
-**© 2026 Milin Patel, Hochschule Kempten (IFM)**
+© 2026 Milin Patel, Hochschule Kempten (IFM)
+
+---
+
+*English: A hands-on, no-code Colab notebook (in German) for school students on how automated vehicles perceive people,
+and where that perception fails: detection thresholds, simulated weather, and a computed adversarial patch.
+The other folders hold English university-level material on safety and security of automated driving.*
