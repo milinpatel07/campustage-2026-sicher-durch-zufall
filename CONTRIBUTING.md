@@ -44,7 +44,7 @@ Ideas for new content, better explanations, or structural changes are welcome. O
 ## Content Guidelines
 
 - **Accuracy**: Ensure technical content is correct and references appropriate standards
-- **Clarity**: Write for a reader who may be new to the topic — explain terminology and assumptions
+- **Clarity**: Write for a reader who may be new to the topic; explain terminology and assumptions
 - **Workshop notebooks** (`00_*`): German, no code reading required, terminology as in the glossary at the end of the workshop notebook
 - **Conciseness**: Be thorough but avoid unnecessary repetition
 - **Code quality**: Include comments, use descriptive variable names, and handle common errors
